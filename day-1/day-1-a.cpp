@@ -14,7 +14,7 @@ int main(int argc, char const* argv[]) {
 
     ifstream in("calories.txt");
     if (!in) {
-        std::cerr << "error while opening the file" << std::endl;
+        cerr << "error while opening the file" << std::endl;
     }
 
     string line;
